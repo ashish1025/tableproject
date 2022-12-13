@@ -1,0 +1,16 @@
+.activeBtn {
+    margin: 5px;
+    border-radius: 5px;   
+    border: 1px solid grey;
+    padding: 2.5px;
+    background-color: white;
+}
+
+.inactiveBtn {
+    margin: 5px;
+    border-radius: 5px;   
+    border: 1px solid grey;
+    padding: 2.5px;
+    border-left: 3px solid #136FED;
+    background-color: white;
+}
