@@ -26,7 +26,7 @@ function App() {
 
 
   useEffect(() => {
-    fetch('http://go-dev.greedygame.com/v3/dummy/report?startDate=' + `${startDate}` + '&endDate=' + `${endDate}`)
+    fetch(`http://go-dev.greedygame.com/v3/dummy/report?startDate=${startDate}&endDate=${endDate}`)
       .then((response) => response.json())
       .then((data) => {
         // console.log(data.data);
